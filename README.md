@@ -9,8 +9,8 @@ Das User Interface (UI) oder auch die Benutzeroberfläche bezieht sich auf den T
 einer Reihe von visuellen und interaktiven Elementen, die dem Benutzer helfen, Aufgaben auszuführen und Informationen zu erhalten. 
 UI-Tests simulieren Benutzerinteraktionen, um sicherzustellen, dass alle Funktionen und Elemente der Benutzeroberfläche ordnungsgemäß funktionieren, einschließlich Schaltflächen, Eingabefelder, Menüs und andere Benutzeroberflächenelemente. Diese Tests werden häufig durchgeführt, um sicherzustellen, dass die Anwendung den Erwartungen der Benutzer entspricht und keine Probleme bei der Interaktion mit der Anwendung auftreten. <br> <br>
 **Vorteile von UI-Testing** <br> 
-• Defekte frühzeitig im Entwicklungsprozess zu erkennen, was das Beheben einfacher und weniger kostspielig macht. <br>
-• Das Risiko von Fehlern und Problemen, die in der Produktion auftreten können, zu reduzieren, was zu einer besseren Stabilität und Zuverlässigkeit der Anwendung führt. <br> <br>
+1. Defekte frühzeitig im Entwicklungsprozess zu erkennen, was das Beheben einfacher und weniger kostspielig macht. <br>
+2. Das Risiko von Fehlern und Problemen, die in der Produktion auftreten können, zu reduzieren, was zu einer besseren Stabilität und Zuverlässigkeit der Anwendung führt. <br> <br>
 Die Automatisierung von UI-Testing mit beispielsweise Selenium spart zudem Zeit und Ressourcen. <br>
 Die Bedeutung von UI-Tests kann nicht genug betont werden, da sie dazu beitragen, Probleme zu identifizieren und zu beheben, bevor sie die Endbenutzer erreichen und somit eine bessere User Experience bieten.
 
@@ -44,12 +44,12 @@ ermöglicht die Durchführung von UI-Tests durch die Übermittlung von
 Befehlen an den Browser, der auf einem anderen System ausgeführt wird.
 
 ## Praxis
-[Selenium Dokumentation](https://www.selenium.dev/documentation/) <br> <br> 
+[Selenium Dokumentation](https://www.selenium.dev/documentation/) <br>
 
 1. Für die gewählte Programmiersprache die Selenium-Bibliothek installieren. [Überblick](https://www.selenium.dev/documentation/webdriver/getting_started/install_library/) 
 2. WebDriver für den Browser, den man testen möchte, herunterladen und installieren. Beispiel: [ChromeDriver](https://chromedriver.chromium.org/downloads). Nach dem Herunterladen und Entpacken der Zip, kann man den Driver dann als Umgebungsvariable spezifizieren oder direkt im Code angeben. Die Angabe des Speicherorts im Code selbst hat den Vorteil, dass man keine Umgebungsvariablen auf dem System herausfinden muss, hat jedoch den Nachteil, dass der Code viel weniger flexibel wird. 
 
-Testskript von der Präsentation ist hier zu finden. 
+Testskript von der Präsentation ist [hier](SeleniumTest.java) zu finden. 
 
 **Achtung** <br> 
 Seit der Chrome-Version 111 gibt es Probleme eine Instanz des ChromeDrivers zu starten. Dies liegt daran, dass Selenium den Origin-Header bei einem Aufruf setzt. 
